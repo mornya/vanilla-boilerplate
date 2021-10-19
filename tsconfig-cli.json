@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig-default.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "isolatedModules": false,
+    "noEmit": false,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "types/**/*",
+    "sever.ts"
+  ]
+}

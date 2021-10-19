@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig-default.json",
+  "include": [
+    "types/**/*",
+    "src/**/*"
+  ],
+  "exclude": [
+    "public",
+    "src/assets",
+    "dist",
+    ".idea",
+    ".git",
+    ".vscode"
+  ]
+}
